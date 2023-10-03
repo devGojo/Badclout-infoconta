@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  header {
+    height: 60px;
+    background: black;
+    display: flex;
+  }
+
+  .smirk{
+    cursor: pointer;
+  }
+
+  .slogan{
+    cursor: pointer;
+  }
+
+  section {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  
+  display: flex;
+  flex-direction: column;
+ 
+  }
+
+  .info p {
+    width: 1000px;
+    height: 189px;
+    margin:0;
+    line-height: 200px;
+    font-size: 38px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+   .domo span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #000000;
+    background-size:50%, 25%, 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    width: 50px;
+    line-height: 24px;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .left h1{
+     margin: 30px;
+    cursor:pointer;
+  }
+
+  .nobu{
+    margin-top: 10px;
+  }
+  
+  .nobu a{
+    font-weight: 400;
+    color: var(--x-color-interactive-text);
+  }
+
+  .acess{
+    background-color: #FFCD29;
+    border: none;
+    height: 60px;
+    padding: 1px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .acess button:hover{
+    border: black solid 2px;
+  }
+
+button::after{content: '';
+  position: absolute;
+  z-index: 1;
+  top: calc(-1 * calc(0px + 0.0625rem));
+  right: calc(-1 * calc(0px + 0.0625rem));
+  bottom: calc(-1 * calc(0px + 0.0625rem));
+  left: calc(-1 * calc(0px + 0.0625rem));
+  display: block;
+  pointer-events: none;}
+  
+  .GetOff{
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 400;
+    margin-left: 1000px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 50px;
+    cursor: pointer;
+  }
+  
+  .Black {
+    width: 40px;
+    height: 40px;
+    margin-left: 800px;
+    margin-top:10px;
+    cursor:pointer
+  }
+
+ 
+
+  .domo{
+    margin: 0;
+    margin-right: 79vw;
+    margin-top: 38px;
+  }
+}
