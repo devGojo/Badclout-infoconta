@@ -33,7 +33,7 @@ function App() {
                   <span>Nome: </span> <br />
                   <span>Tel: </span> <br />
                  <span>CEP: </span> <br />
-                <span>Email: </span> <br /> <br />
+                <span>Email: </span> <br />
                 <span>Senha: </span><br />
                 </div>
 
